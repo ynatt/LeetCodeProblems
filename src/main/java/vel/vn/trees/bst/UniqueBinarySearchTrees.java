@@ -5,6 +5,9 @@ import java.util.List;
 
 public class UniqueBinarySearchTrees {
 
+    /**
+     * 95. Unique Binary Search Trees II (Medium)
+     */
     public List<TreeNode> generateTrees(int n) {
         return generateTrees(1, n);
     }
